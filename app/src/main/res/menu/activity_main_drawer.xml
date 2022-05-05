@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/operacionesFragment"
+            android:icon="@drawable/calculadora"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/sonidoFragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sonidos" />
+        <item
+            android:id="@+id/sitioWebFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sitio Web" />
+        <item
+            android:id="@+id/APKFragment"
+            android:icon="@drawable/mapa"
+            android:title="Aplicación" />
+        <item
+            android:id="@+id/visualizarFragment"
+            android:icon="@drawable/telefono"
+            android:title="Maravillas Modernas" />
+    </group>
+</menu>

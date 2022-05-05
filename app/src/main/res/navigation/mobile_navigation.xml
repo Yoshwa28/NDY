@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/sitioWebFragment">
+
+    <fragment
+        android:id="@+id/operacionesFragment"
+        android:name="com.example.ndy.operacionesFragment"
+        android:label="fragment_operaciones"
+        tools:layout="@layout/fragment_operaciones" />
+    <fragment
+        android:id="@+id/sonidoFragment"
+        android:name="com.example.ndy.SonidoFragment"
+        android:label="fragment_sonido"
+        tools:layout="@layout/fragment_sonido" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.ndy.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
+    <fragment
+        android:id="@+id/sitioWebFragment"
+        android:name="com.example.ndy.SitioWebFragment"
+        android:label="fragment_sitio_web"
+        tools:layout="@layout/fragment_sitio_web" />
+    <fragment
+        android:id="@+id/APKFragment"
+        android:name="com.example.ndy.APKFragment"
+        android:label="fragment_a_p_k"
+        tools:layout="@layout/fragment_a_p_k" />
+    <fragment
+        android:id="@+id/visualizarFragment"
+        android:name="com.example.ndy.VisualizarFragment"
+        android:label="fragment_visualizar"
+        tools:layout="@layout/fragment_visualizar" />
+</navigation>
